@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="plan.css">
+    <link href="https://fonts.googleapis.com/css2?family=Labrada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="website">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./Images/PngItem_1946600.png" alt="">
+                </div>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="./Nishank/landing.html">Home</a></li>
+                        <li>
+                            <a href="#">Explore <i class="fa-solid fa-caret-down"></i></a>
+                            <ul>
+                                <li><a href="./Nishank/temp_web.html">Kashi vishwanath</a></li>
+                                <li><a href="#">Lord Jagannath</a></li>
+                                <li><a href="#">Tirupati Balaji</a></li>
+                                <li><a href="#">Vaishno Devi</a></li>
+                                <li><a href="#">Somnath</a></li>
+                                <li><a href="#">Kamakhya</a></li>
+                                <li><a href="#">Mahabodhi</a></li>
+                                <li><a href="#">Siddhivinayak</a></li>
+                                <li><a href="#">Rameshwaram</a></li>
+                                <li><a href="#">Shirdi SaiBaba</a></li>
+                                <li><a href="#">Golden Tample</a></li>
+                                <li><a href="#">Kedarnath</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./plan.html">Plan</a></li>
+                        <li>
+                            <a href="#">Media <i class="fa-solid fa-caret-down"></i></a>
+                            <ul id="media">
+                                <li><a href="./Kuldeep/Media/gallery.html">Gallery</a></li>
+                                <li><a href="./Kuldeep/Media/ebook.html">Ebook</a></li>
+                                <li><a href="./Kuldeep/Media/socialmedia.html">Social-Media</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="./login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="bg_img"></div>
+                <div class="select_bar">
+                    <div class="heading_select">
+                        <h1>Select Places</h1>
+                    </div>
+                    <div class="select_opt">
+                        <select name="state" id="state">
+                            <option value="none" selected disabled hidden>Select a State</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                        </select>
+                        <select name="City Name" id="city_name">
+                            <option value="none" selected disabled hidden>Select a City</option>
+                            <option value="Varanasi">Varanasi</option>
+                            <option value="Puri">Puri</option>
+                            <option value="Tirumala">Tirumala</option>
+                            <option value="Jammu">Jammu</option>
+                            <option value="Somnath">Somnath</option>
+                            <option value="Kamakhya">Kamakhya</option>
+                            <option value="Bodh gaya">Bodh Gaya</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Rameshwaram">Rameshwaram</option>
+                            <option value="Shirdi">Shirdi</option>
+                            <option value="Amritsar">Amritsar</option>
+                            <option value="Rudraprayag">Rudraprayag</option>
+                        </select>
+                        <select name="temple" id="temple_name">
+                            <option value="none" selected disabled hidden>Select a Temple</option>
+                            <option value="Kashi Vishwanath"> Kashi Vishwanath</option>
+                            <option value="Lord Jagannath Temple">Lord Jagannath Temple</option>
+                            <option value="Venkateshwara Tirupati Balaji">Venkateshwara Tirupati Balaji</option>
+                            <option value="Vaishno Devi Temple">Vaishno Devi Temple</option>
+                            <option value="Somnath Temple">Somnath Temple</option>
+                            <option value="Kamakhya Temple">Kamakhya Devi Temple</option>
+                            <option value="Mahabodhi Temple Complex">Mahabodhi Temple Complex</option>
+                            <option value="Siddhivinayak Temple">Siddhivinayak Temple</option>
+                            <option value="Ramnathaswamy Temple (Rameshwaram)">Ramnathaswamy Temple (Rameshwaram)</option>
+                            <option value="Shirdi Sai Baba Temple">Shirdi Sai Baba Temple</option>
+                            <option value="Golden Temple, Amritsar">Golden Temple, Amritsar</option>
+                            <option value="Kedarnath Temple">Kedarnath Temple</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="temple_list">
+                <div class="temple_links">
+                    <a href="#"><img src="./Images/Bodhi.jpg" alt="Mahabodhi Temple Image"><p>Mahabodhi Temple</p></a>
+                    <a href="#"><img src="./Images/pexels-nav-photography-5458388.jpg" alt="Golden Temple Image"><p>Golden Temple</p></a>
+                    <a href="#"><img src="./Images/kamakhya-temple-guwahati-kamrup-kamakhya-110137785.jpg" alt="Kamakhya Temple Image"><p>Kamakhya Devi Temple</p></a>
+                    <a href="#"><img src="./Images/Kedarnath-images.jpg" alt="Kedarnath Temple"><p>Kedarnath Temple</p></a>
+                    <a href="#"><img src="./Images/rameswaram-temple-1656167436_f2c551193bb7d4bc6f70.jpg" alt="Rameshwaram Temple"><p>Rameshwaram Temple</p></a>
+                    <a href="#"><img src="./Images/sai-baba-hd-wallpaper-shirdi.jpg" alt="Sai baba Image"><p>Sai Baba Temple</p></a>
+                    <a href="#"><img src="./Images/SOMNATH.jpg" alt="Somnath temple"><p>Somnath Temple</p></a>
+                    <a href="./Plan_pages/tirupati.html"><img src="./Images/Tirupati.jpg" alt="Tirupati Balaji Temple"><p>Tirupati Balaji Temple</p></a>
+                    <a href="./Plan_pages/Vaishno_Devi.html"><img src="./Images/Vaishno Devi.jpg" alt="Vaishno Devi"><p>Vaishno Devi Temple</p></a>
+                    <a href="./Plan_pages/siddhivinayak.html"><img src="./Images/shree-siddhivinayak-temple-mumbair.jpg" alt="Siddhivinayak Temple"><p>Siddhivinayak Temple</p></a>
+                    <a href="./Plan_pages/Jaganath_puri.html"><img src="./Images/Jagnath.jpg" alt="Jagannath Puri"><p>Jagannath Puri Temple</p></a>
+                    <a href="./Plan_pages/Kashi.html"><img src="./Images/Kashi.jpg" alt="Kashi Temple"><p>Kashi Vishwanath Temple</p></a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_content">
+                    <div class="tbl1">
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusamus sed qui quaerat accusantium eaque omnis 
+                            temporibus excepturi sunt, voluptatem sit voluptas ut 
+                            eius laudantium culpa alias animi nihil, repudiandae 
+                            dolorem.</p>
+                    </div>
+                    <div class="tbl2">
+                        <h2>Pages</h2>
+                        <a href="#"><i class="fa-solid fa-angle-right"></i> Home</a>
+                        <a href="#"><i class="fa-solid fa-angle-right"></i> Explore</a>
+                        <a href="./plan.html"><i class="fa-solid fa-angle-right"></i> Plan</a>
+                        <a href="#"><i class="fa-solid fa-angle-right"></i> Media</a>
+                        <a href="#"><i class="fa-solid fa-angle-right"></i> About Us</a>
+                        <a href="./login.html"><i class="fa-solid fa-angle-right"></i> Login</a>
+                    </div>
+                    <div class="tbl3">
+                       <h2>Contact Us</h2>
+                       <p><i class="fa-sharp fa-solid fa-location-dot"></i> XYZ, Balewadi high street, Pune, 411045, </p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                    </div>
+                    <div class="tbl4">
+                        <h2>Feedback</h2>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Please write feedback for our services"></textarea>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="copywrite">
+                    <p>
+                        Copyrights © 2023 - Harshal Mankar, Nishank Singh, Kuldeep Singh, All Rights Reserved.
+                        Design for - Zepskill.com,
+                        <b>Education Purpose Only</b> 
+                    </p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
